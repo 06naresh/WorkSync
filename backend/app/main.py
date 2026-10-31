@@ -40,6 +40,7 @@ app.add_middleware(
         "http://localhost:5173",
         "https://worksync-frontend-hhxylhlap-naresh-dev1.vercel.app",
         "https://worksync-frontend.vercel.app",
+        "https://worksync-frontend-one.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
