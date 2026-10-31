@@ -22,13 +22,6 @@ SessionLocal = sessionmaker(
 
 
 def get_db():
-    """
-    Provide a database session to FastAPI endpoints.
-
-    The session is automatically closed
-    after the request is completed.
-    """
-
     db = SessionLocal()
 
     try:

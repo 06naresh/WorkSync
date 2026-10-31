@@ -16,6 +16,8 @@ class Settings(BaseSettings):
 
     FRONTEND_URL: str = "http://localhost:5173"
 
+    FRONTEND_URL_PRO: str = "http://localhost:4173/"
+
     DATABASE_URL: str
 
     model_config = SettingsConfigDict(
