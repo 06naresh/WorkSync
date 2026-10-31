@@ -36,7 +36,11 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.FRONTEND_URL, settings.FRONTEND_URL_PRO,],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://worksync-frontend-hhxylhlap-naresh-dev1.vercel.app",
+        "https://worksync-frontend.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
