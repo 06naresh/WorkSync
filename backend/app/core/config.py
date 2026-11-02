@@ -14,9 +14,7 @@ class Settings(BaseSettings):
 
     APP_VERSION: str = "1.0.0"
 
-    FRONTEND_URL: str = "http://localhost:5173"
-
-    FRONTEND_URL_PRO: str = "http://localhost:4173/"
+    FRONTEND_URL: str
 
     DATABASE_URL: str
 
